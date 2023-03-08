@@ -2,6 +2,7 @@ name: GitHub Actions Demo Events
 run-name: ${{github.actor}} is testing out GitHub Actions ▶
 on: [status]
 jobs:
+  Explore-GitHub-Actions:
   runs-on: ubuntu-latest
   steps:
     -run: echo "Git Status"
